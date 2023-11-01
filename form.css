@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(124, 42, 232);
+}
+.container{
+    background-color: white;
+    width: 430px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
+.input{
+    height: 40px;
+    width: 400px;
+    display: block;
+    margin-left: 20px;
+    border: 0px; 
+}
+.one{
+    margin-bottom: 2px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.two{
+    margin-bottom: 2px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.three{
+    margin-bottom: 2px;
+     width: 350px;
+      height: 40px;
+       border-radius: 10px;
+     border: 2px solid gray;
+     background-color: blue;
+    text-align: center;
+    font-weight: 600;
+}
+.four{
+    margin-bottom: 5px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: darkblue;
+    text-align: center;
+    font-weight: 600;
+}
+.five{
+    margin-bottom: 5px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    text-align: center;
+    font-weight: 600;
+
+
+ 
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: smaller;
+    color: blue;
+}
+h3{
+    text-align: center;
+    font-weight: 200;
+}
+.blue{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+.blue::before,.blue::after{
+    content: "";
+    background-color: grey;
+    display: block;
+    height: 0.2px;
+}
+.Leader{
+    color: darkblue;
+    font-weight: 200;
+}
+
